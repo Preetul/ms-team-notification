@@ -12,5 +12,5 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   arges:
-   - ${{  input.webhook_uri}}
+   - ${{  input.webhook_uri }}
    - ${{  input.message }}
