@@ -2,10 +2,10 @@ name: 'Notify Teams Channel'
 auther: 'preetul.correia@genmills.com'
 description: 'It will sent the message in MS Teams Channel about the status of the job'
 inputs:
-   webhook_uri:
+  webhook_uri:
      description: 'Web hook ULR for the MS Teams Channel to receive the message'
      required: true
-    message:
+  message:
      description: 'Message to be posted in MS Teams Channel'
      required: true
 runs:
